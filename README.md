@@ -31,9 +31,8 @@ A simple Python script to fetch YouTube video transcripts and generate a short s
 
 3. Install dependencies:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+   pip install transformers torch
+   pip install youtube-transcript-api
 
 ## Usage
 
@@ -55,8 +54,5 @@ python video-summarizer.py
 
 ## Requirements
 
-List of dependencies in `requirements.txt`:
-
-```
 youtube-transcript-api
 ```
